@@ -1,0 +1,7 @@
+grant{
+//permission java.net.SocketPermission “*:1024-65535”,”connect,accept”;
+//permission java.net.SocketPermission “:80”,”connect”;
+permission java.security.AllPermission;
+};
+
+//grant codeBase "file:/auto_home/tkriszt/IdeaProjects/nTiers/TP1 - veterinaire/out/production/TP1 - veterinaire/clinique/v3/" { permission java.io.FilePermission "..${/}*", "read" ; };
